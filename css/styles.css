@@ -23,7 +23,7 @@ ul {
 
 
 header {
-    background-image: linear-gradient(to right, rgb(255, 227, 68),rgb(163, 28, 163));
+    background-color: white;
     box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.15);
     height: 80px;
     position: fixed;
@@ -35,7 +35,8 @@ header {
 }
 
 .yellow-rectangle {
-    background-color:rgb(255, 227, 68);
+    background-image: linear-gradient(to right, rgb(255, 227, 68),rgb(163, 28, 163));
+   
     height: 400px; /* altura do retângulo */
     width: 100%; /* largura total */
     position: absolute; /* posição absoluta para que fique atrás do texto */
@@ -199,8 +200,48 @@ section.hero {
 }
 
 
+section.seja{
+    
+    padding-top: 300px;
+}
+section.seja h2 {
+    
+    text-align: center;
+    font-size: 25px;
+    letter-spacing: 0.85px;
+    line-height: 42px;
+    font-weight: normal;
+    margin: 80px 0 14px 0;
+}
+section.seja img {
+    
+    justify-content: center;
+} 
+
 section.best-sellers{
     padding-top: 80px;
+}
+section.seja hr{
+    border: none;
+    border-top: 10px  solid #ef48f5;
+    width: 1660px;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-bottom: 100px;
+}
+
+
+section.saibam {
+    
+}
+section.saibam hr{
+    border: none;
+    border-top: 10px  solid #ef48f5;
+    width: 1660px;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 section.best-sellers h2 {
@@ -237,9 +278,19 @@ section.best-sellers .product-slider .product {
     margin: 0 8px;
 }
 
+
+
+
+
 footer {
     text-align: center;
+}
 
+footer hr {
+    margin-top: 100px;
+    border: none;
+    border-top: 20px solid #ef48f5;
+    width: 2000x;
 }
 
 
@@ -247,15 +298,15 @@ footer {
 footer .botton-nav {
     text-align: start;
     padding: 60px 0;
-    color: white;
-    background-color: #300c5f;
+    color: rgb(211, 67, 255);
+    background-color: white;
     display: flex;
     
 }
 
 footer .copyright-txt {
     text-align: center;
-    color: white;
+    color: rgb(211, 67, 255);
     background-color: #510b6d;
     height: 60px;
     display: flex;
@@ -267,7 +318,7 @@ footer .copyright-txt {
 }
 
 footer .botton-nav .container img {
-    width: 8%;
+    width: 10%;
     
     height: auto;
 }
