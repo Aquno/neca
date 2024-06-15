@@ -220,7 +220,7 @@ section.seja img {
 } 
 
 
-
+/* --------------------------------------saiba mais----------------------------*/
 section.seja hr{
     border: none;
     border-top: 10px  solid #ef48f5;
@@ -232,8 +232,38 @@ section.seja hr{
 
 
 section.saibam {
-    
+    padding: 80px 0;
+    background-color: #ffffff; /* Cor de fundo para destacar a seção */
+    text-align: center; /* Centraliza o texto */
 }
+
+section.saibam h2 {
+    font-size: 34px;
+    letter-spacing: 0.85px;
+    line-height: 42px;
+    font-weight: normal;
+    margin-bottom: 20px; /* Espaçamento abaixo do título */
+}
+
+section.saibam p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #555; /* Cor do texto */
+    max-width: 800px; /* Largura máxima do parágrafo */
+    margin: 0 auto; /* Centraliza o parágrafo */
+    padding: 0 20px; /* Padding para dar espaço nas laterais em telas menores */
+}
+
+section.saibam hr {
+    border: none;
+    border-top: 2px solid #ef48f5;
+    width: 166px;
+    margin: 40px auto 0; /* Margem para centralizar e espaçamento acima */
+}
+
+
+
+
 section.saibam hr{
     border: none;
     border-top: 10px  solid #ef48f5;
